@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "start": "bun run index.ts",
+    "db:init": "sqlite3 database/todo.db < database/schema/todo-schema.sql",
     "test": "bun test"
   },
   "devDependencies": {
@@ -12,5 +13,9 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "@b4moss/crudian": "^0.6.0",
+    "twig": "^3.0.0"
   }
 }
