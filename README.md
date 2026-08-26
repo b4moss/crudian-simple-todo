@@ -1,5 +1,3 @@
-> **Languages:** [English](./README.md) · [日本語](./README_ja.md)
-
 # crudian simple todo
 
 This repository is a sample web application by [b4moss/crudian](https://github.com/b4moss/crudian).

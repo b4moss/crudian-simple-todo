@@ -9,13 +9,15 @@
     "test": "bun test"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@zackad/prettier-plugin-twig": "^0.17.0"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
     "@b4moss/crudian": "^0.6.0",
+    "hono": "^4.13.5",
     "twig": "^3.0.0"
   }
 }
