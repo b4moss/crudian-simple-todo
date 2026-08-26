@@ -1,5 +1,5 @@
 {
-  "name": "@b4moss/app",
+  "name": "@b4moss/crudian-simple-todo",
   "module": "index.ts",
   "type": "module",
   "private": true,

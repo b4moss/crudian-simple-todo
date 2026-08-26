@@ -10,20 +10,20 @@ SHELL := /bin/bash
 help:
 	@printf '%s\n' \
 		'App:' \
-		'  make install   bun install in dev/' \
-		'  make run       bun run index.ts in dev/' \
-		'  make test      bun test in dev/' \
+		'  make install   bun install in samples/bun/' \
+		'  make run       bun run index.ts in samples/bun/' \
+		'  make test      bun test in samples/bun/' \
 		'' \
 		'Rulesets: make ruleset-help'
 
 install:
-	cd dev && bun install
+	cd samples/bun && bun install
 
 run:
-	cd dev && bun run index.ts
+	cd samples/bun && bun run index.ts
 
 test:
-	cd dev && bun test
+	cd samples/bun && bun test
 
 
 RULESET_ROOT_DIR := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
