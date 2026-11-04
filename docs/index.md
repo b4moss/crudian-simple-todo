@@ -4,7 +4,7 @@ okf_version: "0.1"
 
 # Charter Bundle
 
-* [憲章（charter）](charter/) - 開発方針の最上位取り決めと個別ルール
+* [憲章（charter）](https://github.com/b4moss/charter/tree/v1/docs/charter) - 開発方針の最上位取り決めと個別ルール
 * [このプロジェクト独自のルール](override-charter.md) - 憲章をオーバーライドする範囲（現状は設定なし）
 
 # Project Docs Placeholders
